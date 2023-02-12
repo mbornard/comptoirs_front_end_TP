@@ -1,6 +1,7 @@
 <template>
   <main>
     <div>
+      <p class = "pages">Les produits - page {{data.page}} / {{data.totalPages}}</p>
       <table>
         <caption>Liste des catégories</caption>
         <tr>
@@ -77,6 +78,12 @@ button{
 }
 table{
   width: 70%;
+}
+.pages
+{
+  text-indent: 100px;
+  font-size: large;
+
 }
 
 
